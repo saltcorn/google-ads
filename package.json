@@ -1,0 +1,44 @@
+{
+  "name": "@saltcorn/google-ads",
+  "version": "0.1.0",
+  "description": "Google Ads table provider and actions for Saltcorn, querying with GAQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@saltcorn/data": "1.6.2",
+    "@saltcorn/markup": "1.6.2"
+  },
+  "author": "RUTAYISIRE MANZI Gerard Valentin",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2022
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-case-declarations": "off",
+      "no-empty": "warn",
+      "no-fallthrough": "warn"
+    }
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "saltcorn",
+    "saltcorn-plugin",
+    "google-ads",
+    "gaql",
+    "table-provider"
+  ]
+}
